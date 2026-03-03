@@ -1,0 +1,40 @@
+# Virtual environment
+vlm_venv/
+
+#Experiment images
+experiments
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Egg / build artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# GroundingDINO build artifacts
+GroundingDINO/**/__pycache__/
+GroundingDINO/**/*.so
+GroundingDINO/**/*.egg-info/
+GroundingDINO/build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
